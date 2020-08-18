@@ -55,6 +55,11 @@
     "chrome_style": true,
     "open_in_tab": true
   },
+"browser_specific_settings": {
+                "gecko": {
+                        "id": "{3feeffe1-bbaf-4a05-a984-4f20a7e1be0c}"
+                }
+        },
   "content_scripts": [{
     "all_frames": true,
     "run_at": "document_start",
