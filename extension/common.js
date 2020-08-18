@@ -491,13 +491,13 @@ chrome.contextMenus.onClicked.addListener(info => chrome.storage.local.set({
 }));
 
 // restore container agents
-chrome.storage.local.get({
+/*chrome.storage.local.get({
   'container-uas': {}
 }, prefs => {
   for (const cookieStoreId of Object.keys(prefs['container-uas'])) {
     ua.string(prefs['container-uas'][cookieStoreId], 'global', cookieStoreId);
   }
-});
+}); */
 
 /* FAQs & Feedback */
 {
