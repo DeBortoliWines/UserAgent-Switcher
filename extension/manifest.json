@@ -1,4 +1,4 @@
-{
+﻿{
   "manifest_version": 2,
   "name": "User-Agent Switcher and Manager",
   "short_name": "useragent-switcher",
@@ -49,8 +49,7 @@
       "64": "data/icons/64.png"
     },
     "default_popup": "data/popup/index.html"
-  },
-  "homepage_url": "https://add0n.com/useragent-switcher.html",
+  },
   "options_ui": {
     "page": "data/options/index.html",
     "chrome_style": true,
