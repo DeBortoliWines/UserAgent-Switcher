@@ -1,4 +1,4 @@
-'use strict';
+﻿'use strict';
 
 function notify(msg, period = 750) {
   // Update status to let user know options were saved.
@@ -66,10 +66,10 @@ function restore() {
     faqs: true,
     log: false,
     cache: true,
-    mode: 'blacklist',
+    mode: 'custom',
     whitelist: [],
     blacklist: [],
-    custom: {},
+    custom: {"qadci-uat.*": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4209.0 Safari/537.36", "touriga.*": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4209.0 Safari/537.36", "qadci-unstable.*": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4209.0 Safari/537.36", "arneis.*": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4209.0 Safari/537.36", "qadci-dev.*": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4209.0 Safari/537.36", "piccolo.*": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4209.0 Safari/537.36"},
     parser: {},
     protected: ['google.com/recaptcha', 'gstatic.com/recaptcha']
   }, prefs => {
